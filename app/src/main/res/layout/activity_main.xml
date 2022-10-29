@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -10,44 +9,29 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/hours"
-        android:textColor="@color/white"
-        android:textSize="14sp"
-        style=""
-        app:autoSizeTextType="none" />
+        style="@style/TextHeaders"
+        android:text="@string/hours" />
 
     <TextView
         android:id="@+id/hoursNumbers"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textColor="@color/white"
+        style="@style/TextNumbers"
         tools:text="@string/twentyExample" />
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/minutes"
-        android:textColor="@color/white" />
+        style="@style/TextHeaders"
+        android:text="@string/minutes" />
 
     <TextView
         android:id="@+id/minutesNumbers"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textColor="@color/white"
+        style="@style/TextNumbers"
         tools:text="@string/sixtyExample" />
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/seconds"
-        android:textColor="@color/white" />
+        style="@style/TextHeaders"
+        android:text="@string/seconds" />
 
     <TextView
         android:id="@+id/secondsNumbers"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textColor="@color/white"
+        style="@style/TextNumbers"
         tools:text="@string/sixtyExample" />
 </LinearLayout>
