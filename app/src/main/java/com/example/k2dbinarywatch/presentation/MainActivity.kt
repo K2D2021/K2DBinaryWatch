@@ -4,6 +4,7 @@ import android.annotation.SuppressLint
 import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Toast
 import com.example.k2dbinarywatch.databinding.ActivityMainBinding
 import java.text.SimpleDateFormat
 import java.time.LocalDateTime
@@ -36,12 +37,10 @@ class MainActivity : AppCompatActivity() {
         binaryMinutes += myDate[4]
         var binarySeconds = myDate[6].toString()
         binarySeconds += myDate[7]
-
-
-
-        binding.hoursNumbers.text = binaryHours
-        binding.minutesNumbers.text = binaryMinutes
-        binding.secondsNumbers.text = binarySeconds
+        Toast.makeText(this, myDate, Toast.LENGTH_SHORT).show()
+        binding.hoursNumbers.text = binaryHours.toInt().toString(2)
+        binding.minutesNumbers.text = binaryMinutes.toInt().toString(2)
+        binding.secondsNumbers.text = binarySeconds.toInt().toString(2)
     }
 
 }
