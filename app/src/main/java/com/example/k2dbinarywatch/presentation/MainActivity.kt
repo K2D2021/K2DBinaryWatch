@@ -1,29 +1,20 @@
 package com.example.k2dbinarywatch.presentation
 
-import android.annotation.SuppressLint
-import android.os.Build
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.example.k2dbinarywatch.databinding.ActivityMainBinding
+import com.example.k2dbinarywatch.domain.updateTime
 import kotlinx.coroutines.MainScope
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
-import java.text.SimpleDateFormat
-import java.time.LocalDateTime
-import java.time.format.DateTimeFormatter
-import java.util.*
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
 
-    @SuppressLint("SimpleDateFormat", "SetTextI18n")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-
-
-
         val scope = MainScope()
         scope.launch {
 
@@ -41,24 +32,8 @@ class MainActivity : AppCompatActivity() {
                 binding.minutesNumbers.text = binaryMinutes.toInt().toString(2)
                 binding.secondsNumbers.text = binarySeconds.toInt().toString(2)
             }
-
         }
     }
-
-
 }
 
-@SuppressLint("SimpleDateFormat")
-fun updateTime(): String {
-    val updatedTime = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-        val current = LocalDateTime.now()
-        val formatter = DateTimeFormatter.ofPattern("HH:mm:ss")
-        current.format(formatter)
-    } else {
-        val date = Date()
-        val formatter = SimpleDateFormat("HH:mma")
-        formatter.format(date)
 
-    }
-    return updatedTime
-}
