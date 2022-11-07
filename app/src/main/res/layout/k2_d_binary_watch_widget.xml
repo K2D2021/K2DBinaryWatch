@@ -2,13 +2,73 @@
     style="@style/Widget.K2DBinaryWatch.AppWidget.Container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/black"
+    android:padding="8dp"
+
     android:theme="@style/Theme.K2DBinaryWatch.AppWidgetContainer">
 
     <TextView
-        android:id="@+id/appwidget_hours"
+        android:id="@+id/appwidget_hours_head"
         style="@style/Widget.K2DBinaryWatch.AppWidget.InnerView"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:textSize="14sp" />
+        android:background="@color/black"
+        android:text="Hours"
+        android:textSize="11sp" />
+
+    <TextView
+        android:id="@+id/appwidget_text"
+        style="@style/Widget.K2DBinaryWatch.AppWidget.InnerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/appwidget_hours_head"
+        android:background="@color/black"
+        android:text=""
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_marginTop="6dp"
+        android:id="@+id/appwidget_minutes_head"
+        style="@style/Widget.K2DBinaryWatch.AppWidget.InnerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/appwidget_text"
+        android:background="@color/black"
+        android:text="Minutes"
+        android:textSize="11sp" />
+
+    <TextView
+        android:id="@+id/appwidget_text_minutes"
+        style="@style/Widget.K2DBinaryWatch.AppWidget.InnerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/appwidget_minutes_head"
+        android:layout_alignStart="@+id/appwidget_text"
+        android:layout_alignEnd="@+id/appwidget_text"
+        android:background="@color/black"
+        android:text=""
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_marginTop="6dp"
+        android:id="@+id/appwidget_seconds_head"
+        style="@style/Widget.K2DBinaryWatch.AppWidget.InnerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/appwidget_text_minutes"
+        android:background="@color/black"
+        android:text="Seconds"
+        android:textSize="11sp" />
+
+    <TextView
+        android:id="@+id/appwidget_text_seconds"
+        style="@style/Widget.K2DBinaryWatch.AppWidget.InnerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/appwidget_seconds_head"
+        android:layout_alignStart="@+id/appwidget_text"
+        android:layout_alignEnd="@+id/appwidget_text"
+        android:background="@color/black"
+        android:text=""
+        android:textSize="18sp" />
 </RelativeLayout>
