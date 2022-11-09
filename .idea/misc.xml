@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/K2D/AndroidStudioProjects/K2DBinaryWatch/app/src/main/res/drawable-v21/app_widget_background.xml" value="0.266" />
+        <entry key="..\:/Users/K2D/AndroidStudioProjects/K2DBinaryWatch/app/src/main/res/drawable-v21/app_widget_inner_view_background.xml" value="0.266" />
         <entry key="..\:/Users/K2D/AndroidStudioProjects/K2DBinaryWatch/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.3725" />
         <entry key="..\:/Users/K2D/AndroidStudioProjects/K2DBinaryWatch/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3725" />
         <entry key="..\:/Users/K2D/AndroidStudioProjects/K2DBinaryWatch/app/src/main/res/drawable/ic_splachscreenk2dbs.xml" value="0.3565" />
