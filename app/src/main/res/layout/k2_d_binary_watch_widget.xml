@@ -1,10 +1,9 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/appwidget_top"
     style="@style/Widget.K2DBinaryWatch.AppWidget.Container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/black"
-    android:padding="8dp"
-    android:id="@+id/appwidget_top"
+    android:padding="14dp"
     android:theme="@style/Theme.K2DBinaryWatch.AppWidgetContainer">
 
     <TextView
@@ -27,12 +26,12 @@
         android:textSize="18sp" />
 
     <TextView
-        android:layout_marginTop="6dp"
         android:id="@+id/appwidget_minutes_head"
         style="@style/Widget.K2DBinaryWatch.AppWidget.InnerView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/appwidget_text"
+        android:layout_marginTop="6dp"
         android:background="@color/black"
         android:text="Minutes"
         android:textSize="11sp" />
@@ -50,12 +49,12 @@
         android:textSize="18sp" />
 
     <TextView
-        android:layout_marginTop="6dp"
         android:id="@+id/appwidget_seconds_head"
         style="@style/Widget.K2DBinaryWatch.AppWidget.InnerView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/appwidget_text_minutes"
+        android:layout_marginTop="6dp"
         android:background="@color/black"
         android:text="Seconds"
         android:textSize="11sp" />
