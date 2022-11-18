@@ -1,4 +1,4 @@
-package com.example.k2dbinarywatch.domain
+package ru.k2d.k2dbinarywatch.domain
 
 import android.annotation.SuppressLint
 import android.os.Build

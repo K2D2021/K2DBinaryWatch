@@ -1,4 +1,4 @@
-package com.example.k2dbinarywatch
+package ru.k2d.k2dbinarywatch
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

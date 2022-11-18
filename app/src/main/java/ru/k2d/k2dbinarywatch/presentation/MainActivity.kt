@@ -1,9 +1,9 @@
-package com.example.k2dbinarywatch.presentation
+package ru.k2d.k2dbinarywatch.presentation
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.example.k2dbinarywatch.databinding.ActivityMainBinding
-import com.example.k2dbinarywatch.domain.updateTime
+import com.k2d.k2dbinarywatch.databinding.ActivityMainBinding
+import ru.k2d.k2dbinarywatch.domain.updateTime
 import kotlinx.coroutines.MainScope
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch

@@ -1,4 +1,4 @@
-package com.example.k2dbinarywatch.presentation
+package ru.k2d.k2dbinarywatch.presentation
 
 import android.annotation.SuppressLint
 import android.content.Intent

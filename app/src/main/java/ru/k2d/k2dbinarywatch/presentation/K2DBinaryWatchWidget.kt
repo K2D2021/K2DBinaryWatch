@@ -1,4 +1,4 @@
-package com.example.k2dbinarywatch.presentation
+package ru.k2d.k2dbinarywatch.presentation
 
 import android.app.PendingIntent
 import android.appwidget.AppWidgetManager
@@ -6,8 +6,8 @@ import android.appwidget.AppWidgetProvider
 import android.content.Context
 import android.content.Intent
 import android.widget.RemoteViews
-import com.example.k2dbinarywatch.R
-import com.example.k2dbinarywatch.domain.updateTime
+import com.k2d.k2dbinarywatch.R
+import ru.k2d.k2dbinarywatch.domain.updateTime
 import kotlinx.coroutines.MainScope
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
@@ -30,7 +30,7 @@ class K2DBinaryWatchWidget : AppWidgetProvider() {
 
             val views = RemoteViews(context.packageName, R.layout.k2_d_binary_watch_widget)
             views.setOnClickPendingIntent(R.id.appwidget_top, pendingIntent)
-            appWidgetManager.updateAppWidget(appWidgetId, views);
+            appWidgetManager.updateAppWidget(appWidgetId, views)
         }
     }
 
