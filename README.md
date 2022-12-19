@@ -28,7 +28,7 @@ In landscape mode, the app becomes the perfect desktop clock type
 - Clean architecture 
 - SOLID
 - Single activity approach
-- [View binding](https://developer.android.com/topic/libraries/view-binding) is used to interact with views within fragments and recyclerview adapters
+- [View binding](https://developer.android.com/topic/libraries/view-binding)
 - Kotlin coroutines are used for asynchronous operations
 
 # Project stats
