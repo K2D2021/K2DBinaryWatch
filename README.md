@@ -11,7 +11,7 @@ There are 10 types of people in the world who understand the binary system and t
 
 ## Features
 - [Home screen widget](#widget)
-- [Minimalistic design](#minimalistic design)
+- [Minimalistic design](#minimalistic_design)
 - [Landscape mode](#landscape mode)
 
 
