@@ -17,14 +17,17 @@ There are 10 types of people in the world who understand the binary system and t
 
 ### Home screen widget
 Beautiful widget for the home screen
+
 <img src="https://github.com/K2D2021/K2DBinaryWatch/blob/master/K2DBinaryWatchWidget.gif">
 
 ### Minimalistic design
 Beautiful and elegant design, without unnecessary elements.
+
 <img src="https://github.com/K2D2021/K2DBinaryWatch/blob/master/K2DBinaryWatchWorks.gif">
 
 ### Landscape mode
 In landscape mode, the app becomes the perfect desktop clock type
+
 <img src="https://github.com/K2D2021/K2DBinaryWatch/blob/master/K2DBinaryWatchWorksLandscape.gif">
 
 # Technologies
