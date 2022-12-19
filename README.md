@@ -3,7 +3,7 @@ Binary clock for contemplating time in the style of programmers
 
 - [Description](#description)
 - [Technologies](#technology)
-- [Project statistic](#statistic)
+- [Project stats](#project_stats)
 
 # Description
 This is a stylish app with a widget for people who understand the meaning of the joke:
@@ -30,4 +30,8 @@ In landscape mode, the app becomes the perfect desktop clock type
 - Single activity approach
 - [View binding](https://developer.android.com/topic/libraries/view-binding) is used to interact with views within fragments and recyclerview adapters
 - Kotlin coroutines are used for asynchronous operations
+
+# Project stats
+<img src="https://github.com/K2D2021/K2DBinaryWatch/blob/master/K2DBinaryWatchStatistics.jpg">
+
 
