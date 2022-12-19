@@ -24,7 +24,7 @@ Beautiful and elegant design, without unnecessary elements.
 ### Landscape mode
 In landscape mode, the app becomes the perfect desktop clock type
 
-# Technology
+# Technologies
 - Clean architecture 
 - SOLID
 - Single activity approach
