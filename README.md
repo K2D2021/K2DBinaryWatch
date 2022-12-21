@@ -2,7 +2,7 @@
 Binary clock for contemplating time in the style of programmers
 
 - [Description](#description)
-- [Technologies](#technology)
+- [Technologies](#technologies)
 - [Project stats](#project-stats)
 
 # Description
