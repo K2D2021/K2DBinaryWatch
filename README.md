@@ -3,17 +3,17 @@ Binary clock for contemplating time in the style of programmers
 
 - [Description](#description)
 - [Technologies](#technology)
-- [Project stats](#project_stats)
+- [Project stats](#project-stats)
 
 # Description
 This is a stylish app with a widget for people who understand the meaning of the joke:
 There are 10 types of people in the world who understand the binary system and those who do not.
 
 ## Features
-- [Home screen widget](#home_screen_widget)
-- [Minimalistic design](#minimalistic_design)
-- [Landscape mode](#landscape_mode)
-- [Beautiful icon](#beautiful_icon)
+- [Home screen widget](#home-screen-widget)
+- [Minimalistic design](#minimalistic-design)
+- [Landscape mode](#landscape-mode)
+- [Beautiful icon](#beautiful-icon)
 - [Mysterious splashscreen](#mysterious-splashscreen)
 
 
