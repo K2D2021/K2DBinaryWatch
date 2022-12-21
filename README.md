@@ -13,6 +13,8 @@ There are 10 types of people in the world who understand the binary system and t
 - [Home screen widget](#Home_screen_widget)
 - [Minimalistic design](#minimalistic_design)
 - [Landscape mode](#landscape_mode)
+- [Beautiful icon](#beautiful_icon)
+- [Mysterious splashscreen](#mysterious_splashscreen)
 
 
 ### Home screen widget
