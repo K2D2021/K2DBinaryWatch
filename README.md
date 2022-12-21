@@ -10,11 +10,11 @@ This is a stylish app with a widget for people who understand the meaning of the
 There are 10 types of people in the world who understand the binary system and those who do not.
 
 ## Features
-- [Home screen widget](#Home_screen_widget)
+- [Home screen widget](#home_screen_widget)
 - [Minimalistic design](#minimalistic_design)
 - [Landscape mode](#landscape_mode)
 - [Beautiful icon](#beautiful_icon)
-- [Mysterious splashscreen](#mysterious_splashscreen)
+- [Mysterious splashscreen](#mysterious splashscreen)
 
 
 ### Home screen widget
