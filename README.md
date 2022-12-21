@@ -14,7 +14,7 @@ There are 10 types of people in the world who understand the binary system and t
 - [Minimalistic design](#minimalistic_design)
 - [Landscape mode](#landscape_mode)
 - [Beautiful icon](#beautiful_icon)
-- [Mysterious splashscreen](#mysterious splashscreen)
+- [Mysterious splashscreen](#mysterious_splashscreen)
 
 
 ### Home screen widget
