@@ -30,6 +30,20 @@ In landscape mode, the app becomes the perfect desktop clock type
 
 <img src="https://github.com/K2D2021/K2DBinaryWatch/blob/master/K2DBinaryWatchWorksLandscape.gif">
 
+
+
+### Beautiful icon
+Especially for this application, an icon has been developed in the same style with this application and the icons of my other applications.
+
+<img src="https://github.com/K2D2021/K2DBinaryWatch/blob/master/K2DBinaryWatchIcon.jpg">
+
+
+
+### Mysterious splashscreen
+Deep and mysterious splash screen at the loading stage
+
+<img src="https://github.com/K2D2021/K2DBinaryWatch/blob/master/K2DBinaryWatchSplashScreen.jpg">
+
 # Technologies
 - Clean architecture 
 - SOLID
